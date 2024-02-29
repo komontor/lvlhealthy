@@ -3,6 +3,12 @@ import Navbar from "./components/Navbar";
 import brosur from "@/public/assets/images/brosur.jpg";
 import Footer from "./components/Footer";
 import MobileFooter from "./components/MobileFooter";
+
+export const metadata = {
+  title: 'LVLHEALTHY | Anasayfa',
+}
+
+
 export default function Home() {
   return (
     <main className="">
